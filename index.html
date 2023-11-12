@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>MI FIRST GAME</title>
 </head>
 <body>
+    <!-- cabecera -->
+    <header>
+        <img src="img/img__1.png" alt="Logo" width="100px">
+    </header>
     
+    <!-- cuerpo -->
+    <main>
+        <form action="#">
+            <div class="item__form">
+                <label for="nick">Ingresa tu Nick</label><br>
+                <input type="text" name="nick" id="nick"><br><br>
+            </div>
+            <div class="item__form">
+                <label for="email">Correo electronico</label><br>
+                <input type="email" name="email" id="email" placeholder="yo@example.com"><br><br>
+            </div>
+            <div class="item__form">
+                <label for="tamano">Tamaño del juego</label><br>
+                <select name="tamano" id="tamano">
+                    <option value="">--Por favor elige un tamaño--</option>
+                    <option value="1">4x4</option>
+                    <option value="2">5x5</option>
+                    <option value="3">6x6</option>
+                </select>
+            </div>
+            <br>
+            <div class="item__form">
+                <input type="submit" value="JUGAR">
+            </div>
+        </form>
+    </main>
+
+    <!-- pie de pagina -->
+    <footer>
+        <p>HTML&CSS&JS</p>
+    </footer>
 </body>
 </html>
